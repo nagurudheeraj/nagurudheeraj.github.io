@@ -165,11 +165,13 @@ function sendEmail() {
   Email.send({
     SecureToken: "3d38d956-0308-4c0d-a240-b9d8a0b5fe7f",
     To: 'dheerajnaguru@gmail.com',
-    From: emailValue,
+    From: "dheerajreddy80@gmail.com",
     Subject: "Contact Form Submitted by " + name,
-    Body: messageValue
+    Body: `Email: ${emailValue}
+
+Message: ${messageValue}`
   }).then(
-    // message => alert(message)
+    // message => alert(message),
     document.getElementById('submitButton').innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon> Message Sent'
   );
   setTimeout(function () {
