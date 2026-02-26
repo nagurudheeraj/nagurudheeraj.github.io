@@ -17,13 +17,13 @@ const Section = ({ title, content }) => (
 const JobItem = ({ logo, role, company, startDate, endDate, url }) => (
   <Link href={url} target="_blank">
     <div className="group flex items-center pt-8 hover:text-white">
-      <div>
+      <div className="">
         <Image
           src={logo}
           alt={`${company} logo`}
           width={100}
           height={100}
-          className="w-16 h-16 border border-gray-900 shadow-sm rounded-full object-contain"
+          className="w-16 h-16 p-2 shadow-sm rounded-full object-contain"
         />
       </div>
       <div className="flex flex-1 justify-between ml-6">
@@ -55,7 +55,7 @@ const EducationItem = ({
           alt={`${institution} logo`}
           width={100}
           height={100}
-          className="w-16 h-16 border border-gray-900 shadow-sm rounded-full object-contain"
+          className="w-16 h-16 p-2 shadow-sm rounded-full object-contain"
         />
       </div>
       <div className="flex flex-1 justify-between ml-6">

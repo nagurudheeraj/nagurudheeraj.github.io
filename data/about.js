@@ -6,10 +6,20 @@ export const about = {
   experience: {
     jobs: [
       {
+        role: "Founder & Full Stack Engineer",
+        company: "Draz (draz.chat)",
+        startDate: "Dec 2025",
+        endDate: "Present",
+        logo: "https://cdn.yellowmessenger.com/TrqdzA2PTO8x1761533383113.png", // add your logo import
+        url: "https://draz.chat",
+        description:
+          "Architected and built an AI-powered conversational platform end-to-end. Designed scalable microservices for agents, chat orchestration, workflows, knowledge base integration, and human-in-the-loop support. Implemented modular backend services using Node.js, Socket.IO, and Express, with a custom React frontend.",
+      },
+      {
         role: "Technology Analyst",
         company: "Infosys",
         startDate: "Oct 2024",
-        endDate: "Current",
+        endDate: "Present",
         logo: infosys,
         url: "https://www.infosys.com/",
       },

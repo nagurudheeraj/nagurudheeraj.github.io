@@ -71,13 +71,12 @@ const page = () => {
   return (
     <div className="text-white lg:w-2/3 mx-auto py-20 mb-20">
       <header>
-        <h1 className="text-5xl font-bold font-neuzeit bg-gradient-to-r from-[#4e60ff] to-[#ff0095] text-transparent bg-clip-text">
+        <h1 className="text-5xl font-bold font-neuzeit bg-gradient-to-r from-[#ff6b6b] to-[#ffa726] text-transparent bg-clip-text">
           Let's Chat
         </h1>
         <p className="text-slate-500 mt-2">
-          I often get messages asking about specific pieces of software or
-          hardware I use. This not a static page, it's a living document with
-          everything that I'm using nowadays.
+          Have a question, an idea, or just want to say hi? Feel free to reach
+          out through any of the platforms below — I'd love to connect.
         </p>
 
         <div className="flex flex-col items-center my-10">

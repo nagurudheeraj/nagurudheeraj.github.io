@@ -36,9 +36,9 @@ const Page = () => {
           The Gear I Use
         </h1>
         <p className="text-slate-500 mt-2">
-          I often get messages asking about specific pieces of software or
-          hardware I use. This not a static page, it's a living document with
-          everything that I'm using nowadays.
+          Here's a curated list of the tools, software, and hardware that power
+          my daily workflow. This is a living document — I update it whenever I
+          switch things up.
         </p>
 
         {gear?.map((list, index) => (
